@@ -9,9 +9,10 @@ xhr.onreadystatechange = function (){
   }
     
   };
+console.log (words1[20].word);
 xhr.open ('Get', 'level1.json');
 
 xhr.send();
 
-console.log (words1[20].word);
+
     
