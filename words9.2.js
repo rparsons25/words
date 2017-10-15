@@ -6,7 +6,8 @@ xhr.onreadystatechange = function (){
     var words1 = JSON.parse (xhr.responseText);
     
     console.log (words1.length);
-    console.log (words1[20].word.length)
+    console.log (words1[20].word);
+    console.log (words1[20].word.length);
   }
   };
 
