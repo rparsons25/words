@@ -5,7 +5,7 @@ xhr.onreadystatechange = function (){
     
     console.log(typeof xhr.responseText);
     var words1 = JSON.parse (xhr.responseText);
-      console.log (words1[20].word);
+
   }
     
   };
@@ -13,5 +13,5 @@ xhr.open ('Get', 'level1.json');
 
 xhr.send();
 
-
+console.log (words1[20].word);
     
