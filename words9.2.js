@@ -1,6 +1,5 @@
 //global variables
-var y = "";
-var x = 0;
+
 
 
 
@@ -17,8 +16,8 @@ xhr.onreadystatechange = function (){
       randomNumber(words1);
 //random word function
 function randomNumber(){
-    x = Math.floor(Math.random()*words1.length);
-    y = words1[x].word;
+   var x = Math.floor(Math.random()*words1.length);
+   var y = words1[x].word;
     console.log(y);
     return randomNumber;
 }
