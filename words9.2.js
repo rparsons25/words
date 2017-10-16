@@ -19,8 +19,11 @@ function randomNumber(){
    var x = Math.floor(Math.random()*words1.length);
    var y = words1[x].word;
     console.log(y);
+    console.log(words1[x].score);
     return randomNumber;
 }
+      words1[x].score=2;
+      console.log(words1[x].score);
   }
   };
 
