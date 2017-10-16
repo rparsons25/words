@@ -8,12 +8,29 @@ xhr.onreadystatechange = function (){
     console.log (words1.length);
     console.log (words1[20].word);
     console.log (words1[20].word.length);
+      findWord(words1);
+      console.log (randomWord);
   }
   };
 
 xhr.open ('Get', 'level1.json');
 
 xhr.send();
+
+function findWord(words1) {
+   if (y < 2){
+        randomWord = words1[x][0];
+        console.log (randomWord);
+        g1 = randomWord
+        alert (g1 + ' g1');
+        alert (x);
+       printHTML();
+                }else {
+                    console.log ('Oops! ' +randomWord+ ' has too many points!');
+                    randomNumber();
+                }
+    return randomWord;
+}
 
 
     
