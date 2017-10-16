@@ -21,9 +21,9 @@ xhr.onreadystatechange = function (){
     console.log (words1.length);
     console.log (words1[20].word);
     console.log (words1[20].word.length);
-      randomNumber(words1);
+      randomNumber();
 //random word function
-function randomNumber(){
+function randomNumber(words1){
     x = Math.floor(Math.random()*words1.length);
     y = words1[x].word;
     console.log(y);
