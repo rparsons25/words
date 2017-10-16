@@ -17,7 +17,7 @@ xhr.open ('Get', 'level1.json');
 
 xhr.send();
 //global variables
-var y = 0;
+var y = "";
 var x = 0;
 
 //random word function
