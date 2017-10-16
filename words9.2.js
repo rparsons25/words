@@ -9,7 +9,7 @@ xhr.onreadystatechange = function (){
     console.log (words1[20].word);
     console.log (words1[20].word.length);
       randomNumber();
-      console.log (y);
+
   }
   };
 
@@ -24,8 +24,8 @@ var x = 0;
 function randomNumber(){
     x = Math.floor(Math.random()*words1.length);
     y = words1[x].word;
-    findWord (words1);
-    return y;
+    console.log(y);
+    return randomNumber;
 }
 
 
