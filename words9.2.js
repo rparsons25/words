@@ -3,7 +3,7 @@
 
 
 
-var xhr = new XMLHttpRequest ();
+/*var xhr = new XMLHttpRequest ();
 xhr.onreadystatechange = function (){
   if (xhr.readyState === 4) {
     console.log(xhr.responseText);
@@ -22,15 +22,19 @@ function randomNumber(){
     console.log(words1[x].score);
     return randomNumber;
 }
-      words1[x].score=2;
-      console.log(words1[x].score);
+
   }
   };
 
 xhr.open ('Get', 'level1.json');
 
 xhr.send();
+*/
 
+var words1 = $.getJSON("level1.json");
+console.log (words1.length);
+    console.log (words1[20].word);
+    console.log (words1[20].word.length);
 
 
 
