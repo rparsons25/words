@@ -8,7 +8,7 @@ xhr.onreadystatechange = function (){
     console.log (words1.length);
     console.log (words1[20].word);
     console.log (words1[20].word.length);
-      randomNumber();
+      randomNumber(words1);
 
   }
   };
