@@ -16,7 +16,11 @@ xhr.onreadystatechange = function (){
 xhr.open ('Get', 'level1.json');
 
 xhr.send();
+//global variables
+var y = 0;
+var x = 0;
 
+//random word function
 function findWord(words1) {
    if (y < 2){
         randomWord = words1[x][0];
